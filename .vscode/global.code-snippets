@@ -65,27 +65,6 @@
     "prefix": "<script> composition-ts-vue2.vue ✌",
     "scope": "vue"
   },
-  "javascript.vue | .js": {
-    "body": ["<script>", "export default {", "\t$1", "}", "</script>", ""],
-    "description": "javascript.vue | .js",
-    "prefix": "<script> javascript.vue ✌",
-    "scope": "vue"
-  },
-  "typescript.vue | .js": {
-    "body": [
-      "<script lang=\"ts\">",
-      "import Vue from 'vue'",
-      "",
-      "export default Vue.extend({",
-      "\t$1",
-      "})",
-      "</script>",
-      ""
-    ],
-    "description": "typescript.vue | .js",
-    "prefix": "<script> typescript.vue ✌",
-    "scope": "vue"
-  },
   "css-scoped.vue | .css": {
     "body": ["<style scoped>", "$1", "</style>", ""],
     "description": "css-scoped.vue | .css",
@@ -96,6 +75,39 @@
     "body": ["<style>", "$1", "</style>", ""],
     "description": "css.vue | .css",
     "prefix": "<style> css.vue ✌",
+    "scope": "vue"
+  },
+  "default.vue | .vue": {
+    "body": [
+      "<template>",
+      "\t$1",
+      "</template>",
+      "",
+      "<script>",
+      "export default {",
+      "",
+      "}",
+      "</script>",
+      "",
+      "<style>",
+      "",
+      "</style>",
+      ""
+    ],
+    "description": "default.vue | .vue",
+    "prefix": "<vue> with default.vue ✌",
+    "scope": "vue"
+  },
+  "html.vue | .html": {
+    "body": ["<template>", "\t$1", "</template>", ""],
+    "description": "html.vue | .html",
+    "prefix": "<template> html.vue ✌",
+    "scope": "vue"
+  },
+  "javascript.vue | .js": {
+    "body": ["<script>", "export default {", "\t$1", "}", "</script>", ""],
+    "description": "javascript.vue | .js",
+    "prefix": "<script> javascript.vue ✌",
     "scope": "vue"
   },
   "less-scoped.vue | .css": {
@@ -120,6 +132,12 @@
     "body": ["<style lang=\"postcss\">", "$1", "</style>", ""],
     "description": "postcss.vue | .css",
     "prefix": "<style> postcss.vue ✌",
+    "scope": "vue"
+  },
+  "pug.vue | .html": {
+    "body": ["<template lang=\"pug\">", "\t$1", "</template>", ""],
+    "description": "pug.vue | .html",
+    "prefix": "<template> pug.vue ✌",
     "scope": "vue"
   },
   "sass-scoped.vue | .css": {
@@ -170,37 +188,19 @@
     "prefix": "<style> stylus.vue ✌",
     "scope": "vue"
   },
-  "html.vue | .html": {
-    "body": ["<template>", "\t$1", "</template>", ""],
-    "description": "html.vue | .html",
-    "prefix": "<template> html.vue ✌",
-    "scope": "vue"
-  },
-  "pug.vue | .html": {
-    "body": ["<template lang=\"pug\">", "\t$1", "</template>", ""],
-    "description": "pug.vue | .html",
-    "prefix": "<template> pug.vue ✌",
-    "scope": "vue"
-  },
-  "default.vue | .vue": {
+  "typescript.vue | .js": {
     "body": [
-      "<template>",
+      "<script lang=\"ts\">",
+      "import Vue from 'vue'",
+      "",
+      "export default Vue.extend({",
       "\t$1",
-      "</template>",
-      "",
-      "<script>",
-      "export default {",
-      "",
-      "}",
+      "})",
       "</script>",
-      "",
-      "<style>",
-      "",
-      "</style>",
       ""
     ],
-    "description": "default.vue | .vue",
-    "prefix": "<vue> with default.vue ✌",
+    "description": "typescript.vue | .js",
+    "prefix": "<script> typescript.vue ✌",
     "scope": "vue"
   }
 }
