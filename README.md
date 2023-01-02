@@ -1,6 +1,6 @@
 # vetur-vscode-snippets
 
-Vetur Snippets to VS Code Snippets.
+Vetur VS Code Snippets.
 
 ## License
 
