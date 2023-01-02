@@ -1,0 +1,206 @@
+{
+  "<script> composition-js-vue.vue ✌": {
+    "body": [
+      "<script>",
+      "export default {",
+      "\tsetup() {",
+      "\t\t${0}",
+      "\t},",
+      "}",
+      "</script>",
+      ""
+    ],
+    "description": "composition-js-vue.vue | .js",
+    "prefix": "<script> composition-js-vue.vue ✌",
+    "scope": "vue"
+  },
+  "<script> composition-js-vue2.vue ✌": {
+    "body": [
+      "<script>",
+      "import { defineComponent } from '@vue/composition-api'",
+      "",
+      "export default defineComponent({",
+      "\tsetup() {",
+      "\t\t${0}",
+      "\t},",
+      "})",
+      "</script>",
+      ""
+    ],
+    "description": "composition-js-vue2.vue | .js",
+    "prefix": "<script> composition-js-vue2.vue ✌",
+    "scope": "vue"
+  },
+  "<script> composition-ts-vue.vue ✌": {
+    "body": [
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tsetup() {",
+      "\t\t${0}",
+      "\t},",
+      "})",
+      "</script>",
+      ""
+    ],
+    "description": "composition-ts-vue.vue | .js",
+    "prefix": "<script> composition-ts-vue.vue ✌",
+    "scope": "vue"
+  },
+  "<script> composition-ts-vue2.vue ✌": {
+    "body": [
+      "<script lang=\"ts\">",
+      "import { defineComponent } from '@vue/composition-api'",
+      "",
+      "export default defineComponent({",
+      "\tsetup() {",
+      "\t\t${0}",
+      "\t},",
+      "})",
+      "</script>",
+      ""
+    ],
+    "description": "composition-ts-vue2.vue | .js",
+    "prefix": "<script> composition-ts-vue2.vue ✌",
+    "scope": "vue"
+  },
+  "<script> javascript.vue ✌": {
+    "body": ["<script>", "export default {", "\t${0}", "}", "</script>", ""],
+    "description": "javascript.vue | .js",
+    "prefix": "<script> javascript.vue ✌",
+    "scope": "vue"
+  },
+  "<script> typescript.vue ✌": {
+    "body": [
+      "<script lang=\"ts\">",
+      "import Vue from 'vue'",
+      "",
+      "export default Vue.extend({",
+      "\t${0}",
+      "})",
+      "</script>",
+      ""
+    ],
+    "description": "typescript.vue | .js",
+    "prefix": "<script> typescript.vue ✌",
+    "scope": "vue"
+  },
+  "<style> css-scoped.vue ✌": {
+    "body": ["<style scoped>", "${0}", "</style>", ""],
+    "description": "css-scoped.vue | .css",
+    "prefix": "<style> css-scoped.vue ✌",
+    "scope": "vue"
+  },
+  "<style> css.vue ✌": {
+    "body": ["<style>", "${0}", "</style>", ""],
+    "description": "css.vue | .css",
+    "prefix": "<style> css.vue ✌",
+    "scope": "vue"
+  },
+  "<style> less-scoped.vue ✌": {
+    "body": ["<style lang=\"less\" scoped>", "${0}", "</style>", ""],
+    "description": "less-scoped.vue | .css",
+    "prefix": "<style> less-scoped.vue ✌",
+    "scope": "vue"
+  },
+  "<style> less.vue ✌": {
+    "body": ["<style lang=\"less\">", "${0}", "</style>", ""],
+    "description": "less.vue | .css",
+    "prefix": "<style> less.vue ✌",
+    "scope": "vue"
+  },
+  "<style> postcss-scoped.vue ✌": {
+    "body": ["<style lang=\"postcss\" scoped>", "${0}", "</style>", ""],
+    "description": "postcss-scoped.vue | .css",
+    "prefix": "<style> postcss-scoped.vue ✌",
+    "scope": "vue"
+  },
+  "<style> postcss.vue ✌": {
+    "body": ["<style lang=\"postcss\">", "${0}", "</style>", ""],
+    "description": "postcss.vue | .css",
+    "prefix": "<style> postcss.vue ✌",
+    "scope": "vue"
+  },
+  "<style> sass-scoped.vue ✌": {
+    "body": ["<style lang=\"sass\" scoped>", "${0}", "</style>", ""],
+    "description": "sass-scoped.vue | .css",
+    "prefix": "<style> sass-scoped.vue ✌",
+    "scope": "vue"
+  },
+  "<style> sass.vue ✌": {
+    "body": ["<style lang=\"sass\">", "${0}", "</style>", ""],
+    "description": "sass.vue | .css",
+    "prefix": "<style> sass.vue ✌",
+    "scope": "vue"
+  },
+  "<style> scss-scoped.vue ✌": {
+    "body": ["<style lang=\"scss\" scoped>", "${0}", "</style>", ""],
+    "description": "scss-scoped.vue | .css",
+    "prefix": "<style> scss-scoped.vue ✌",
+    "scope": "vue"
+  },
+  "<style> scss.vue ✌": {
+    "body": ["<style lang=\"scss\">", "${0}", "</style>", ""],
+    "description": "scss.vue | .css",
+    "prefix": "<style> scss.vue ✌",
+    "scope": "vue"
+  },
+  "<style> sss-scoped.vue ✌": {
+    "body": ["<style lang=\"sss\" scoped>", "${0}", "</style>", ""],
+    "description": "sss-scoped.vue | .css",
+    "prefix": "<style> sss-scoped.vue ✌",
+    "scope": "vue"
+  },
+  "<style> sss.vue ✌": {
+    "body": ["<style lang=\"sss\">", "${0}", "</style>", ""],
+    "description": "sss.vue | .css",
+    "prefix": "<style> sss.vue ✌",
+    "scope": "vue"
+  },
+  "<style> stylus-scoped.vue ✌": {
+    "body": ["<style lang=\"stylus\" scoped>", "${0}", "</style>", ""],
+    "description": "stylus-scoped.vue | .css",
+    "prefix": "<style> stylus-scoped.vue ✌",
+    "scope": "vue"
+  },
+  "<style> stylus.vue ✌": {
+    "body": ["<style lang=\"stylus\">", "${0}", "</style>", ""],
+    "description": "stylus.vue | .css",
+    "prefix": "<style> stylus.vue ✌",
+    "scope": "vue"
+  },
+  "<template> html.vue ✌": {
+    "body": ["<template>", "\t${0}", "</template>", ""],
+    "description": "html.vue | .html",
+    "prefix": "<template> html.vue ✌",
+    "scope": "vue"
+  },
+  "<template> pug.vue ✌": {
+    "body": ["<template lang=\"pug\">", "\t${0}", "</template>", ""],
+    "description": "pug.vue | .html",
+    "prefix": "<template> pug.vue ✌",
+    "scope": "vue"
+  },
+  "<vue> with default.vue ✌": {
+    "body": [
+      "<template>",
+      "\t${0}",
+      "</template>",
+      "",
+      "<script>",
+      "export default {",
+      "",
+      "}",
+      "</script>",
+      "",
+      "<style>",
+      "",
+      "</style>",
+      ""
+    ],
+    "description": "default.vue | .vue",
+    "prefix": "<vue> with default.vue ✌",
+    "scope": "vue"
+  }
+}
